@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtNone {
+    text-decoration: none;
+    color: grey;
+}
+
+.active {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #1e3932;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navOptions {
+    width: 40%;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.searchInput {
+    width: 25%;
+    justify-content: space-around;
+}
+
+.inputbar {
+    border: 1px solid grey;
+    width: 80%;
+    height: 70%;
+    border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding-left: 2%;
+}
+
+.navSearch {
+    border: none;
+    width: 90%;
+    font-size: 0.7rem;
+    margin-left: 2%;
+    outline: none;
+}
+
+.offers {
+    width: 100%;
+    height: 10vh;
+    background-color: #1e3932;
+    justify-content: space-around;
+}
+
+.text {
+    color: white;
+    font-size: large;
+    font-weight: 100;
+    margin-right: 12%;
+    font-family: sans-serif;
+}
+
+.knowMoreBtn {
+    width: 7%;
+}
+
+.kmbtn {
+    background-color: transparent;
+    border-radius: 3vh;
+    width: 100%;
+    height: 3vh;
+    color: white;
+    border: 1px solid white;
+}
+
+.bestSeller {
+    width: 70%;
+    height: 25vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.textPart {
+    height: 18%;
+    width: 100%;
+    font-size: x-large;
+    justify-content: start;
+    margin-top: 2%;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+.products {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: start;
+    margin-top: 1%;
+}
+
+.productImage {
+    width: 12%;
+    height: 65%;
+    border-radius: 50%;
+}
+
+
+.savings {
+    height: 50vh;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url("./photo_2023-11-24_13-26-49.jpg");
+    justify-content: space-around;
+    margin-top: 3% ;
+}
+
+.flagImage {
+    width: 10%;
+    height: 100%;
+    margin-top: 0%;
+    background-color: transparent;
+}
+
+.savingText {
+    font-size: x-large;
+    height: 100%;
+    width: 65%;
+    padding-top: 0.3%;
+    line-height: 30px;
+}
+
+.savingbtn {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 20%;
+}
+
+.kmBtn {
+    height: 25%;
+    width: 60%;
+    background-color: #00754a;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+
+.latestOffering {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 5vh;
+    margin-top: 10vh;
+    font-size: 4.5vh;
+    font-weight: 900;
+    color: #1e3932;
+}
+
+.offerings {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offerProduct {
+    height: 140%;
+    width: 40%;
+    border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-evenly;
+    margin-right: 2%;
+}
+
+.offerProduct:hover{
+    cursor:pointer;
+}
+
+.imageoffer {
+    height: 50%;
+    width: 100%;
+    background-image: url("./102253.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 1vh;
+
+}
+.imageoffer1 {
+    height: 50%;
+    width: 100%;
+    background-image: url("./102260.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 1vh;
+
+}
+.imageoffer2 {
+    height: 50%;
+    width: 100%;
+    background-image: url("./102257.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 1vh;
+
+}
+.textOffer {
+    height: 50%;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 8%;
+    padding-left: 5%;
+    border-bottom-right-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+}
+
+.priceBtn {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0% 0% 0%;
+    margin-top: 2%;
+}
+
+.AddItem {
+    border-radius: 3vh;
+    width: 30%;
+    height: 50%;
+    background-color: #00754a;
+    color: white;
+    border: none;
+}
+
+.AddItem:hover{
+    background-color: #1e3932;
+    cursor: pointer;
+}
+
+.baristasection{
+    width: 100%;
+    height: 45vh;
+    margin-top: 30vh;
+    background-color: lightgrey;
+}
+
+.baristaText{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 15%;
+    width: 70%;
+    margin-left: 15%; 
+    padding-top: 5%;
+}
+
+.baristaProduct{
+    height: 78%;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.milkshakes{
+   width: 35%;
+   height: 70%;
+   margin-right: 3%;
+   background-color: #ffffff;
+   border-radius: 1vh;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.imageAndDes{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.milkshakeImage{
+    height: 80%;
+    width: 25%;
+    margin-left: 5%;
+    
+}
+
+.milkshakeDes{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.priceAndAdditem{
+    margin-top: 7%;
+    width: 95%;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+
+.learningPart{
+    height: 80vh;
+    width: 100%;
+    margin-top: 15vh;
+    background-color: lightgrey;
+}
+
+.coffebeanImage{
+    height: 70%;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 1%;
+    background-image: radial-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)), url(./coffeee.jpg);
+    background-size: cover;
+    border-radius: 1vh;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+   padding-left: 1.5%;
+}
+
+.coffebeanImage:hover{
+    background-image: radial-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.5)), url(./coffee_culture_blog_web1_c6e691b286.jpg);
+}
+
+.learnMore{
+    width:17%;
+    background-color: lightgray;
+    border-radius: 2vh;
+    border: none;
+    height: 10%;
+    font-size: large;
+}
+.lastpart{
+    width: 100%;
+    height: 80vh;
+    /* : 2px solid black;border */
+    background-color:#1e3932;
+    display: flex;
+   justify-content: space-between;
+   
+
+}
+.image{
+    padding-top: 8%;
+    padding-left: 2%;
+}
+.link{
+    font-size: 1rem;
+    color: white;
+    margin-top: 100px;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+
+}
+.system{
+    
+    padding-top: 8%;
+    padding-right: 2%;
+     
+}
+.contact{
+    color: #ffffff;
+ 
+    
+}
